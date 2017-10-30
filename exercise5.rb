@@ -1,9 +1,8 @@
 counter = 0
-puts  "Would you like to walk or run?"
-user_input = gets.chomp.to_s
-
 
 while counter < 100
+  puts  "Would you like to walk or run?"
+  user_input = gets.chomp.to_s
   if user_input == "walk"
     counter += 1
     puts "Distance from home is #{counter}km"

@@ -12,6 +12,12 @@ until energy == 0
     counter += 5
     energy -= 2
     puts "Distance from home is #{counter}km. Energy level #{energy}"
+  elsif user_input == "eat"
+    energy += 3
+    puts "Ate some food. Energy level #{energy}"
+  elsif user_input == "rest"
+    energy += 5
+    puts "Got some rest. Energy level #{energy}"
   elsif user_input == "go home"
     puts "Workout done. Time for home"
     break
@@ -19,4 +25,3 @@ until energy == 0
     puts "Invalid command. Input 'walk' or 'run'."
   end
 end
-puts "Out of energy"

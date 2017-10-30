@@ -9,3 +9,6 @@ puts "This is a number: #{45628 * 7389}."
 
 # Question 4
 puts (10 < 20 && 30 < 20)  || !(10 == 11)
+
+# Variables
+my_variable = 'my_variable now contains this string'
